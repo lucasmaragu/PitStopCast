@@ -142,11 +142,11 @@ import AudioPlayer from '../components/AudioPlayer.vue';
 // Mock data for the latest episode
 const latestEpisode = ref({
   id: 1,
-  title: "Monaco GP Review: Leclerc's Home Victory",
-  date: "2023-05-29",
-  image: "/episode-cover.jpg",
-  audioUrl: "/episodes/monaco-gp-review.mp3",
-  description: "Charles Leclerc finally breaks the Monaco curse with a dominant performance in his home race. We analyze the key moments and discuss the championship implications."
+    title: "GP de China 2025: Piastri lidera el doblete de McLaren en una carrera llena de polémicas",
+    date: "2025-05-15",
+    image: "/gp-china.webp",
+    audioUrl: "/episodes/carrera2.MP3",
+    description: "En este episodio, analizamos el Gran Premio de China 2025, donde Oscar Piastri consiguió una victoria dominante desde la pole position, seguido por su compañero Lando Norris, logrando así un impresionante doblete para McLaren. George Russell completó el podio en tercer lugar. Discutimos las controversias que surgieron tras la carrera, incluyendo las descalificaciones de Charles Leclerc y Pierre Gasly por irregularidades en el peso de sus monoplazas, y la de Lewis Hamilton por desgaste excesivo en el patín del suelo de su Ferrari. Además, abordamos el desafortunado abandono de Fernando Alonso debido a problemas en los frenos y cómo estos eventos impactan en el campeonato",
 });
 </script>
 

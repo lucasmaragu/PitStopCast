@@ -8,6 +8,7 @@
         </div>
       </div>
       <div class="space-y-3">
+      
         <audio ref="audioPlayer" class="w-full" :src="episode.audioUrl" preload="metadata"></audio>
         
         <div class="flex items-center space-x-2">

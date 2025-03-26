@@ -146,92 +146,27 @@ interface Episode {
 const episodes = ref<Episode[]>([
   {
     id: 1,
-    title: "Revisión GP de Mónaco: La victoria en casa de Leclerc",
-    date: "2025-05-29",
-    image: "/episode-cover.jpg",
-    audioUrl: "/episodes/monaco-gp-review.mp3",
-    description: "Charles Leclerc finalmente rompe la maldición de Mónaco con una actuación dominante en su carrera local. Analizamos los momentos clave y discutimos las implicaciones para el campeonato.",
+    title: "GP de Australia 2025: La victoria de Norris y el caos bajo la lluvia",
+    date: "2025-03-16",
+    image: "/gp-australia.jpg",
+    audioUrl: "/episodes/carrera1.MP3",
+    description: "​En este episodio, analizamos el emocionante Gran Premio de Australia 2025, donde Lando Norris logró una impresionante victoria bajo condiciones climáticas desafiantes. Discutimos cómo la lluvia intermitente y las múltiples interrupciones por Safety Car influyeron en la carrera, así como los abandonos notables, incluyendo el de Fernando Alonso. Además, exploramos el rendimiento de McLaren y cómo esta victoria posiciona a Norris en el campeonato mundial.",
     season: "2025",
-    tags: ["Revisión de Carrera", "Mónaco", "Ferrari", "Leclerc"],
+    tags: ["Revisión de Carrera", "Norris", "Mclaren", "Australia", "Lluvia"],
     popularity: 95
   },
   {
     id: 2,
-    title: "Vista previa GP de Imola: La carrera en casa de Ferrari",
+    title: "GP de China 2025: Piastri lidera el doblete de McLaren en una carrera llena de polémicas",
     date: "2025-05-15",
-    image: "/episode-cover-2.jpg",
-    audioUrl: "/episodes/imola-preview.mp3",
-    description: "Hacemos una vista previa del próximo Gran Premio de Imola, la carrera en casa de Ferrari. ¿Podrán desafiar a Red Bull en su terreno? Además, discutimos las últimas mejoras en la parrilla.",
+    image: "/gp-china.webp",
+    audioUrl: "/episodes/carrera2.MP3",
+    description: "En este episodio, analizamos el Gran Premio de China 2025, donde Oscar Piastri consiguió una victoria dominante desde la pole position, seguido por su compañero Lando Norris, logrando así un impresionante doblete para McLaren. George Russell completó el podio en tercer lugar. Discutimos las controversias que surgieron tras la carrera, incluyendo las descalificaciones de Charles Leclerc y Pierre Gasly por irregularidades en el peso de sus monoplazas, y la de Lewis Hamilton por desgaste excesivo en el patín del suelo de su Ferrari. Además, abordamos el desafortunado abandono de Fernando Alonso debido a problemas en los frenos y cómo estos eventos impactan en el campeonato",
     season: "2025",
     tags: ["Vista previa de Carrera", "Imola", "Ferrari", "Mejoras"],
     popularity: 88
   },
-  {
-    id: 3,
-    title: "Revisión GP de Miami: Verstappen domina",
-    date: "2025-05-08",
-    image: "/episode-cover-3.jpg",
-    audioUrl: "/episodes/miami-review.mp3",
-    description: "Max Verstappen ofrece una actuación dominante en Miami. Desglosamos la carrera y discutimos la creciente brecha entre Red Bull y el resto de la parrilla.",
-    season: "2025",
-    tags: ["Revisión de Carrera", "Miami", "Red Bull", "Verstappen"],
-    popularity: 92
-  },
-  {
-    id: 4,
-    title: "Análisis Técnico: Explicación de la Aerodinámica de la F1",
-    date: "2025-04-24",
-    image: "/episode-cover-4.jpg",
-    audioUrl: "/episodes/aero-explained.mp3",
-    description: "Nuestro experto técnico desglosa el complejo mundo de la aerodinámica de la F1. Aprende sobre el diseño de los suelos, los difusores y cómo las regulaciones de 2025 han influido en el desarrollo de los coches.",
-    season: "2025",
-    tags: ["Técnico", "Aerodinámica", "Regulaciones"],
-    popularity: 85
-  },
-  {
-    id: 5,
-    title: "Revisión GP de Abu Dhabi: Final de Temporada",
-    date: "2024-11-21",
-    image: "/episode-cover-5.jpg",
-    audioUrl: "/episodes/abu-dhabi-review.mp3",
-    description: "Cerramos la temporada 2024 con nuestra revisión del Gran Premio de Abu Dhabi y echamos un vistazo a los momentos clave que definieron el campeonato de este año.",
-    season: "2024",
-    tags: ["Revisión de Carrera", "Abu Dhabi", "Final de Temporada"],
-    popularity: 90
-  },
-  {
-    id: 6,
-    title: "Revisión GP de Brasil: La primera victoria de Russell",
-    date: "2024-11-14",
-    image: "/episode-cover-6.jpg",
-    audioUrl: "/episodes/brazil-review.mp3",
-    description: "George Russell consigue su primera victoria en la F1 en Brasil. Analizamos su actuación y discutimos la recuperación tardía de Mercedes en la temporada.",
-    season: "2024",
-    tags: ["Revisión de Carrera", "Brasil", "Mercedes", "Russell"],
-    popularity: 87
-  },
-  {
-    id: 7,
-    title: "Entrevista Especial: Ingeniero de Carrera de la F1",
-    date: "2024-10-31",
-    image: "/episode-cover-7.jpg",
-    audioUrl: "/episodes/engineer-interview.mp3",
-    description: "Nos sentamos con un ingeniero de carrera de la Fórmula 1 para discutir su rol, los desafíos a los que se enfrentan y cómo es trabajar con los pilotos en el nivel más alto del automovilismo.",
-    season: "2024",
-    tags: ["Entrevista", "Ingeniero de Carrera", "Detrás de Cámaras"],
-    popularity: 94
-  },
-  {
-    id: 8,
-    title: "Revisión GP de Abu Dhabi: Final Controvertido",
-    date: "2023-12-13",
-    image: "/episode-cover-8.jpg",
-    audioUrl: "/episodes/abu-dhabi-2023-review.mp3",
-    description: "Desglosamos el controvertido final de la temporada 2023 que vio a Max Verstappen reclamar su tercer campeonato del mundo en la última vuelta de la carrera.",
-    season: "2023",
-    tags: ["Revisión de Carrera", "Abu Dhabi", "Verstappen", "Hamilton", "Campeonato"],
-    popularity: 98
-  }
+  
 ]);
 
 
