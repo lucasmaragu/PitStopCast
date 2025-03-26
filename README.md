@@ -6,7 +6,7 @@ PitStopCast is a Vue 3 and TypeScript-based application for exploring and listen
 
 - **Episode Browsing**: Navigate through a list of available podcast episodes.
 - **Playback Controls**: Play, pause, and seek through podcast episodes with an intuitive interface.
-- **Dynamic Content**: Content updates dynamically to provide the latest episodes and information.
+
 
 ## Installation
 
